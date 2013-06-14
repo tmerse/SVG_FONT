@@ -1,3 +1,4 @@
+// example taken from http://jonobr1.github.io/two.js/examples/animate-stroke.html
 function activateTwo() {
 
   var two = new Two({
