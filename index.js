@@ -1,6 +1,5 @@
 $(function(){
 
-
   var canvas = $('#paperCvs')[0];
   paper.setup(canvas);
 
@@ -260,8 +259,6 @@ $(function(){
   });
 
   $('#export').click(function () {
-    // console.log(charArray);
-    // console.log(JSON.stringify(charArray));
     var exportStr = JSON.stringify(charArray);
     exportStr = '/* Your custom Font. Paste into src/svgData.js */\n\n' +
       'var svgData = ' + exportStr;
