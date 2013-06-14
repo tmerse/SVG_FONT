@@ -1,5 +1,4 @@
 body {
-  /* margin: 20px; */
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -12,9 +11,6 @@ body {
 }
 
 #paperCvs {
-  /* display: block; */
-  /* margin: auto; */
-  /* works as */
   text-align: center;
   border: 1px solid black;
 }
