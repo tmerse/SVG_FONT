@@ -39,12 +39,11 @@ $(function(){
   // SVG-Font Logic
   // ==============
 
+  var chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ.!? ";
   // this will contain the svg representation
   // of our characters, mapped against the
   // ascii table
-  var chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ.!? ";
-  var charArray = [];
-  charArray = svgData;
+  var charArray = svgData;
 
   // pseudo STRINGIFY and PARSE methods for
   // STRING and DOM NODE representation in context
@@ -71,7 +70,6 @@ $(function(){
   // initialize controls
   function initControls () {
     // populate selectbox (#chars) with desired characters
-    // var chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ.!? ";
     var charList = $.map((chars).split(''), function(char){
       return '<option value="' + char + '">' + char + '</option>';
     });
