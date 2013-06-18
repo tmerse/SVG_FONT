@@ -4,9 +4,6 @@ $(function(){
   paper.setup(canvas);
 
   var path;
-
-  var textItem = new paper.PointText(new paper.Point(20, 55));
-
   var mTool = new paper.Tool();
   mTool.activate();
 
