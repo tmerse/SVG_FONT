@@ -217,6 +217,7 @@ $(function(){
     }
 
     output = '<svg id="mysvg">' + output + '</svg>';
+    console.log(output);
     return output;
   }
 
